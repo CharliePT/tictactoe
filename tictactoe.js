@@ -128,7 +128,7 @@ const game = () => {
         turn++
     };
 
-    if (winloss() === false){
+    if (winloss() === 1){
         console.log("Draw")
     }
     else if (winloss === "X"){
